@@ -1,0 +1,13 @@
+[package]
+name = "hdn-data-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+confy = "0.5.1"
+log = { version = "0.4" }
+postcard = { version = "1.0.2", features = ["use-std"] }
+pretty_env_logger = "0.4.0"
+serde = { version = "1.0.151", features = ["derive"] }
+sled = "0.34.7"
+tokio = { version = "1", features = ["full"] }
